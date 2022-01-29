@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.navbar-links_logo {
+    margin-right: 2rem;
+    font-family: var(--font-family);
+    color: #FFF;
+}
+
+/* .portfolio__navbar-links_logo img {
+   width: 62px;
+   height: 16px;
+} */
+
+.navbar-links-container {
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    font-family: var(--font-family);
+}
+
+.navbar-links-container p {
+    
+    color: #FFF;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.navbar-links-icons {
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+}
+
+.navbar-git-icon, .navbar-linked-icon, .navbar-insta-icon {
+transition: 0.3s ease;
+border-radius: 50px;
+
+padding: 8px;
+margin: 0 1rem;
+}
+
+.navbar-git-icon:hover, .navbar-linked-icon:hover, .navbar-insta-icon:hover  {
+
+background-color: #212d45;
+transform: scale(1.2);
+cursor: pointer;
+        
+    
+}
