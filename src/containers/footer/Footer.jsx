@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import possibility from '../../assets/possibility.png'
+
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
 
       <div className="footer-links">
         <div className="footer-links-logo">
-          <img src={possibility} alt="logo" />
+          {/* <img src={possibility} alt="logo" /> */}
         </div>
         <div className="footer-links_div">
           <h4>Links</h4>
@@ -24,10 +24,11 @@ const Footer = () => {
           <p>About me</p>
           <p>Contact me</p>
         </div>
+        
       </div>
-     
+ 
       <div className="footer-copyright"> 
-      <hr className="divider"></hr>
+
       <p>© 2022 Denis Danailov. All rights reserved.</p>
       </div>
     </div>

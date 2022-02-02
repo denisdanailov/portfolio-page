@@ -1,6 +1,6 @@
 import React from 'react';
 import Article from '../../components/article/Article';
-import { blog01, blog02, blog03, blog04, blog05 } from './imports';
+import { appCap, weather, blog03, blog04, blog05 } from './imports';
 import './blog.css';
 
 const Blog = () => (
@@ -10,14 +10,17 @@ const Blog = () => (
     </div>
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupA">
-        <Article imgUrl={blog01} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+        <Article project="</> Code" imgUrl={appCap} date="Dec 6, 2021" text="E-commerce App-capp" />
       </div>
       <div className="gpt3__blog-container_groupB">
-        <Article imgUrl={blog02} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-        <Article imgUrl={blog03} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-        <Article imgUrl={blog04} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-        <Article imgUrl={blog05} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+        <Article project="</> Code" imgUrl={weather} date="Jan 16, 2022" text="To-do List" />
+        <Article project="</> Code"  imgUrl={blog03} date="Jan 20, 2022" text="Weather-App" />
+        <Article project="</> Code"  imgUrl={blog04} date="Nov 26, 2021" text="Game-play" />
+        <Article project="</> Code"  imgUrl={blog05} date="Sep 08, 2021" text="Portfolio Page" />
       </div>
+    </div>
+    <div className="more-projects">
+    <button className="button" ><span>More </span></button>
     </div>
   </div>
 );

@@ -5,18 +5,30 @@
     display: flex;
     flex-direction: column;
     background: var(--color-footer);
-    
+
+    border-color: rgba(131, 131, 131, 0.16);
+    border-width: 1px; 
+    border-style: solid;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px; 
+        
 }
 
 .gpt3__blog-container_article-image {
     width: 100%;
     height: 100%;
-    background: var(--color-bg);
+   
 }
 
 .gpt3__blog-container_article-image img {
     width: 100%;
     height: 100%;
+    opacity: 80%;
+
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px; 
 }
 
 .gpt3__blog-container_article-content {
