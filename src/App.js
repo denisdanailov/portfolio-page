@@ -1,9 +1,11 @@
 import React from 'react';
 
-import { Header, Blog, Features, Footer } from './containers';
-import { Navbar, Article, Skills,} from './components';
-
+import { Header, Blog, Projects, Footer } from './containers';
+import { Navbar, Skills,} from './components';
 import './App.css'
+import Possibility from './containers/possibility/possibility';
+import Timeline from './components/timeline/Timeline';
+
 
 const App = () => {
   return(
@@ -13,8 +15,9 @@ const App = () => {
          <Header />
      </div>
      <Skills />
-     <Features />
      <Blog />
+      <Timeline />
+     <Possibility />
      <Footer />
   </div>
   )
