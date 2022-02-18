@@ -1,10 +1,9 @@
 import React from 'react';
-
 import { Header, Blog, Projects, Footer } from './containers';
 import { Navbar, Skills,} from './components';
 import './App.css'
-import Possibility from './containers/possibility/possibility';
 import Timeline from './components/timeline/Timeline';
+import Contact from './containers/contact/Contact';
 
 
 const App = () => {
@@ -17,7 +16,8 @@ const App = () => {
      <Skills />
      <Blog />
       <Timeline />
-     <Possibility />
+     <Projects />
+     <Contact />
      <Footer />
   </div>
   )

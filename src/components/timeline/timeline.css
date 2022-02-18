@@ -62,10 +62,11 @@
   .flag {
     position: relative;
     display: inline;
-    background: rgb(248,248,248);
+    font-family: var(--font-family);
+    color: #ff8a71;
     padding: 6px 10px;
     border-radius: 5px;
-    
+    font-size: 25px;
     font-weight: 600;
     text-align: left;
   }
@@ -92,9 +93,9 @@
     width: 12px;
     height: 12px;
     margin-top: -10px;
-    background: #fff;
+    background: linear-gradient(45deg, rgb(185, 76, 219), rgb(226, 96, 146) 50%, rgb(254, 129, 94));
     border-radius: 10px;
-    border: 4px solid rgb(255,80,80);
+    border: 3px solid #71E5FF;
     z-index: 10;
   }
   
@@ -111,7 +112,7 @@
     width: 0;
     margin-top: -8px;
     border: solid transparent;
-    border-left-color: rgb(248,248,248);
+    border-left-color: #71E5FF;
     border-width: 8px;
     pointer-events: none;
   }
@@ -125,20 +126,12 @@
     width: 0;
     margin-top: -8px;
     border: solid transparent;
-    border-right-color: rgb(248,248,248);
+    border-right-color: #71E5FF;
     border-width: 8px;
     pointer-events: none;
   }
   
-  .time-wrapper {
-    display: inline;
-    
-    line-height: 1em;
-    font-size: 0.66666em;
-    color: rgb(250,80,80);
-    vertical-align: middle;
-  }
-  
+
   .direction-l .time-wrapper {
     float: left;
   }
@@ -147,18 +140,18 @@
     float: right;
   }
   
-  .time {
-    display: inline-block;
-    padding: 4px 6px;
-    background: rgb(248,248,248);
-  }
+  
   
   .desc {
-    margin: 1em 0.75em 0 0;
+    color: #71E5FF;
+    font-size: 21px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.7px;
+    width: 220px;
     
-    font-size: 0.77777em;
-    font-style: italic;
-    line-height: 1.5em;
+    
+    
   }
   
   .direction-r .desc {
@@ -191,7 +184,7 @@
   }
   
   .flag {
-      background: rgb(255,255,255);
+      
       z-index: 15;
   }
   
@@ -205,9 +198,9 @@
       width: 12px;
       height: 12px;
       margin-left: -9px;
-      background: #fff;
+      background: linear-gradient(45deg, rgb(185, 76, 219), rgb(226, 96, 146) 50%, rgb(254, 129, 94));
       border-radius: 10px;
-      border: 4px solid rgb(255,80,80);
+      border: 4px solid #71E5FF;
       z-index: 10;
   }
   
@@ -221,7 +214,7 @@
       width: 0;
       margin-left: -8px;
       border: solid transparent;
-      border-bottom-color: rgb(255,255,255);
+      border-bottom-color:#71E5FF;
       border-width: 8px;
       pointer-events: none;
   }
@@ -245,7 +238,16 @@
       position: relative;
       margin: 1em 0 0 0;
       padding: 1em;
-      background: rgb(245,245,245);
+      color: #71E5FF;
+      background:   #031B34;
+      opacity: 80%;
+      width: 350px;
+
+      border-bottom-left-radius: 28px;
+      border-bottom-right-radius: 28px;
+      border-top-left-radius: 28px;
+      border-top-right-radius: 28px;
+      
       -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
       -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
       box-shadow: 0 0 1px rgba(0,0,0,0.20);

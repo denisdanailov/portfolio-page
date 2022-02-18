@@ -1,0 +1,17 @@
+.contact {
+    background-color: #052c54;
+    height: 500px;
+    transform: skewY(8deg);
+    margin-bottom: -100px;
+    margin-top: -200px;
+    
+    border-color: rgba(131, 131, 131, 0.16);
+    border-width: 1px; 
+    border-style: solid;
+}
+
+@media screen and (max-width: 550px) {
+  .contact {
+      height: 300px;
+  }
+}

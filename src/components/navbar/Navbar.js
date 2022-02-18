@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine, RiGithubFill, RiLinkedinBoxFill, RiInstagramFill } from 'react-icons/ri';
-import logo from '../../assets/logo.png'
+import { Link as Scroll} from 'react-scroll'
+import logo from '../../assets/Logo3.png'
 import './navbar.css'
 
 const Navbar = () => {
@@ -15,9 +16,15 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-links-container">
+        <Scroll to="home" smooth={true}>
           <p><a href="/home">Home</a></p>
+          </Scroll>
+           <Scroll to="projects" smooth={true}>
           <p><a href="/projects">Projects</a></p>
+          </Scroll>
+          <Scroll to="about" smooth={true}>
           <p><a href="/about">About</a></p>
+          </Scroll>
         </div>
       </div>
 

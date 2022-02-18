@@ -11,13 +11,14 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
+    
 }
 
 .navbar-links_logo {
     margin-right: 2rem;
     font-family: var(--font-family);
     color: #FFF;
+    cursor: pointer;
 }
 
 .portfolio__navbar-links_logo img {
@@ -30,6 +31,8 @@
     flex-direction: row;
     color: #FFF;
     font-family: var(--font-family);
+    
+    
 }
 
 .navbar-links-container p {

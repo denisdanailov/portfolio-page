@@ -39,8 +39,6 @@
     border-color: rgba(131, 131, 131, 0.16);
     border-width: 1px; 
     border-style: solid;
-
-    
     
 } 
 
@@ -73,9 +71,7 @@
     font-weight: 600;
     line-height: 38.4px;
     letter-spacing: 1.4px;  
-    text-align: center;
-    
-    
+    text-align: center;    
   
 }
 .container-article-content-right h3 {
@@ -114,7 +110,6 @@
     width: 70%;
     height: 70%;
 }
-
 
 
 @media screen and (max-width: 810px) {
