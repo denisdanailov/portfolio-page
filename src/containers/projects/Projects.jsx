@@ -6,10 +6,6 @@ import weather from '../../assets/weather.jpg';
 import todo from '../../assets/todo.jpg';
 import appcap from '../../assets/image.jpg';
 
-
-
-
-
 const Projects = () => (
     <div className="gpt3__possibility section__padding" id="projects">
         <div className="gpt3__possibility-image">
@@ -23,8 +19,9 @@ const Projects = () => (
                 You can see the rest of my Projects on my GitHub profile.</p>
             
             <Section name="App-cap" image={appcap} url="https://app-cap.netlify.app/" />
+            <Section name="SecondParts" image={todo} url="https://github.com/denisdanailov/secondparts" />
             <Section name="Weather App" image={weather} url="https://github.com/denisdanailov/weather-app" />
-            <Section name="To-do" image={todo} url="https://github.com/denisdanailov/to-do-list" />
+           
             
         </div>
     </div>
