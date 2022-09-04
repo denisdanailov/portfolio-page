@@ -19,9 +19,14 @@ const Projects = () => (
                 You can see the rest of my Projects on my GitHub profile.</p>
             
             <Section name="App-cap" image={appcap} url="https://app-cap.netlify.app/" />
+<<<<<<< HEAD
             <Section name="SecondParts" image={todo} url="https://github.com/denisdanailov/secondparts" />
             <Section name="Weather App" image={weather} url="https://github.com/denisdanailov/weather-app" />
            
+=======
+            <Section name="Weather App" image={weather} url="https://itsweather-app.netlify.app/" />
+            <Section name="To-do" image={todo} url="https://github.com/denisdanailov/to-do-list" />
+>>>>>>> origin/master
             
         </div>
     </div>
