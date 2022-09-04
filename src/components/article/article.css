@@ -15,7 +15,7 @@
     
     height: 100%;
      
-    padding: 210px 50px 50px 50px;
+    padding: 220px 50px 50px 50px;
    
 }
 
@@ -112,7 +112,7 @@
 }
 
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 550px) {
    
     .container-article-content-right h3 {
         
@@ -132,18 +132,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
 
-    }
-
-    .container-article-left {
-
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-
-    }
-
-    
+    } 
 }
 
 
@@ -151,7 +140,7 @@
     .container-article-content-left h3 {
        
     justify-content: space-between;
-    padding: 2.5rem 1.5rem;
+    padding: 6rem;
 
     }
 
@@ -172,6 +161,7 @@
     .intro-card-code-indented {
     font-size: 19px;
     line-height: 30px;
+    margin-left: unset;
     }
 
     .container-article-content-right h3 {
