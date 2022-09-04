@@ -15,10 +15,10 @@ const Projects = () => (
 
             
             <h1 className="gradient__text">A small selection of my projects.</h1>
-            <p>Here are part of my projects created with React. The projects are at a basic level for training purposes.
+            <p>Here are part of my projects. The projects are at a basic level for training purposes.
                 You can see the rest of my Projects on my GitHub profile.</p>
             
-            <Section name="App-cap" image={appcap} url="https://app-cap.netlify.app/" />
+            <Section name="App-cap" image={appcap} url="https://github.com/denisdanailov/app-cap/" />
             <Section name="SecondParts" image={todo} url="https://github.com/denisdanailov/secondparts" />
             <Section name="Weather App" image={weather} url="https://github.com/denisdanailov/weather-app" />
             
