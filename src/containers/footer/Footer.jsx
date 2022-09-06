@@ -32,15 +32,14 @@ const Footer = () => {
         <div className="footer-links_div">
           <h4>Links</h4>
           <Scroll to="home" smooth={true}>
-          <p>Home</p>
+          <p><a href="/home">Home</a></p>
           </Scroll>
           <Scroll to="projects" smooth={true}>
-          <p>Projects</p>
+          <p><a href="/projects">Projects</a></p>
           </Scroll>
           <Scroll to="about" smooth={true}>
-          <p>About me</p>
+          <p><a href="/about">About</a></p>
           </Scroll>
-          <p>Contact me</p>
         </div>
  
       </div>
